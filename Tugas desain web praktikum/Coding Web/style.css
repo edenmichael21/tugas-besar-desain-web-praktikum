@@ -1,0 +1,141 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/dark_wood.png);
+}
+.kotak {
+	margin:70px auto;
+	width: 800px;
+	background:#FFF;
+	opacity:0.7;
+}
+.logo {
+	width:80px;
+	height:90px;
+	background-image:url(images/Transparent_AOU_Logo.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:-40px;
+	margin-left:750px;
+}
+.judul {
+	padding-left:20px;
+	margin-bottom:10px;
+	color:#0CF;
+}
+.nav a {
+	text-decoration:none;
+	display:block;
+	float:left;
+	margin-left:20px;
+	margin-top:-10px;
+	color:#F66;
+}
+.nav a.active ,
+.nav a:hover {
+	border-bottom:2px #333333 solid;
+	color:#0FF;
+}
+.gambar {
+	margin-top:30px;
+	background-image: url(images/m2-paper-i35721.jpg);
+	background-size:100% 100%;
+	height:150px;
+}
+.content {
+	background-color: #0FF;
+	height: 220px;
+	padding-left:20px;
+	border-top:5px #CCC solid;
+	border-bottom:5px #00FF00 solid;
+}
+.content h3 {
+	margin-top:10px;
+	width:150px;
+	color:#36F;
+}
+.content1 {
+	background-image: url(images/captainamerica-chargingstar.gif);
+	height: 120px;
+	width: 120px;
+	float: left;
+	background-size:100% 100%;
+	border:2px solid white;
+	border-radius:10px 10px 10px 10px;
+}
+.content1 p {
+	margin-top:130px;
+	font-size:15px;
+	font-weight:bold;
+	color:#F00;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+}
+.content2 {
+	background-image: url(images/thor1.gif);
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 80px;
+	background-size:100% 100%;
+	border:2px solid white;
+	border-radius:10px 10px 10px 10px;
+}
+.content2 p {
+	margin-top:130px;
+	font-size:15px;
+	font-weight:bold;
+	color:#F00;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+}
+
+.content3 {
+	background-image: url(images/CGoY4MO.gif);
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 80px;
+	background-size:100% 100%;
+	border:2px solid white;
+	border-radius:10px 10px 10px 10px;
+}
+.content3 p {
+	margin-top:130px;
+	font-size:15px;
+	font-weight:bold;
+	color:#F00;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+}
+
+.content4 {
+	background-image: url(images/imagedata.php.gif);
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 80px;
+	border:2px solid white;
+	background-size: 100% 100%;
+	border-radius:10px 10px 10px 10px;
+}
+.content4 p {
+	margin-top:130px;
+	font-size:15px;
+	font-weight:bold;
+	color:#F00;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+}
+.footer {
+	background-color:#333;
+	text-align:center;
+	padding-top:10px;
+	height:30px;
+	font-size:14px;
+	color:#CCC;
+}
+.footer a {
+	color:#0FF;
+}

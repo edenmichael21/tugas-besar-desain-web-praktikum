@@ -1,0 +1,181 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image:url(images/dark_wood.png);
+}
+.kotak {
+	margin: 70px auto;
+	width: 800px;
+	background:#FFF;
+	opacity:0.7;
+}
+.logo {
+	width:80px;
+	height:90px;
+	background-image: url(images/Transparent_AOU_Logo.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:-40px;
+	margin-left:750px;
+}
+.judul {
+	padding-left:20px;
+	margin-bottom:10px;
+	color:#0CF;
+}
+.nav a {
+	text-decoration:none;
+	display:block;
+	float:left;
+	margin-left:20px;
+	margin-top:-10px;
+	color:#F66;
+}
+.nav a.active ,
+.nav a:hover {
+	border-bottom:2px #333333 solid;
+	color:#0FF;
+}
+.images {
+	margin-top:30px;
+	height:250px;
+	background-image:url(images/avengers-2012.jpg);
+	background-size:100% 100%;
+	border-top:5px #FF0000 solid;
+	border-bottom:5px #0FF solid;
+}
+.judul_in{
+	padding-left:20px;
+	color:#36F;
+	width:220px;
+	margin-bottom:-20px;
+}
+.judul1 h5 {
+	padding-left:20px;
+}
+.judul1 h5 a{
+	color:#0CC;
+}
+
+.isi1 {
+	height:540px;
+	background:#6F9;
+	border:2px #0099CC solid;
+	margin-bottom:10px;
+}
+.sidebar1 {
+	width:470px;
+	float:left;
+	padding-left:10px;
+	margin-top:15px;
+	margin-right:10px;
+}
+.sidebar1 a {
+	border:2px #fff solid;
+	padding:10px 15px 10px 15px;
+	border-radius:10px;
+	background:#09C;
+	color:#FFF;
+	text-decoration:none;
+	transition:3s;
+}
+.sidebar1 a:hover {
+	background:#000;
+	border:2px #FFF solid;
+}
+.sidebar1 h4 {
+	color:#F00;
+	margin-bottom:10px;
+	margin-top:-5px;
+	border-bottom:2px #333 solid;
+}
+.sidebar1 img {
+	float:left;
+	padding-right:10px;
+}
+.aside1 {
+	background-color:#CCC;
+	border:2px #0CC solid;
+	width:250px;
+	height:400px;
+	float:left;
+	margin-top:15px;
+	margin-right:5px;
+	padding-top:35px;
+	padding-left:18px;
+	padding-right:18px;
+}
+.nama {
+	font-weight:bold;
+	margin-bottom:-10px;
+	font-style:italic;
+	color:#06C;
+	border-bottom:2px #FF0000 solid;
+}
+
+
+.isi2 {
+	height:750px;
+	background:#6F9;
+	border:2px #0099CC solid;
+}
+.sidebar2 {
+	width:470px;
+	float:left;
+	padding-left:10px;
+	margin-top:15px;
+	margin-right:10px;
+}
+.sidebar2 a {
+	border:2px #fff solid;
+	padding:10px 15px 10px 15px;
+	border-radius:10px;
+	background:#09C;
+	color:#FFF;
+	text-decoration:none;
+	transition:3s;
+}
+.sidebar2 a:hover {
+	background:#000;
+	border:2px #FFF solid;
+}
+.sidebar2 h4 {
+	color:#F00;
+	margin-bottom:10px;
+	margin-top:-5px;
+	border-bottom:2px #333 solid;
+}
+.sidebar2 img {
+	float:left;
+	padding-right:10px;
+}
+.aside2 {
+	background-color:#CCC;
+	border:2px #0CC solid;
+	width:250px;
+	height:500px;
+	float:left;
+	margin-top:15px;
+	margin-right:5px;
+	padding-top:35px;
+	padding-left:18px;
+	padding-right:18px;
+}
+.nama {
+	font-weight:bold;
+	margin-bottom:-10px;
+	font-style:italic;
+}
+
+.footer {
+	background-color:#333;
+	text-align:center;
+	font-size:14px;
+	color:#CCC;
+	height:30px;
+	padding-top:10px;
+}
+.warna {
+	color:#0FF;
+}
